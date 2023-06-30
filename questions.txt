@@ -1,0 +1,4 @@
+"Who designed the Eiffel Tower?"
+"What is the Eiffel Tower's local nickname?"
+"When was the Eiffel Tower built?"
+"What color is the Eiffel Tower?"

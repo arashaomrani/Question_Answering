@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package qa_service;
+
+// The request message containing the text and questions
+message QARequest {
+    string text = 1;
+    repeated string questions = 2;
+}
+
+// The response message containing the answers
+message QAResponse {
+    repeated string answers = 1;
+}
+
+// The QA service definition
+service QAService {
+    rpc AnswerQuestions (QARequest) returns (QAResponse);
+}
