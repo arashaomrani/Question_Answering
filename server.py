@@ -1,5 +1,3 @@
-# server.py
-
 import argparse
 from concurrent import futures
 import grpc
