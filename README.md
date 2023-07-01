@@ -19,7 +19,8 @@ To run server to be accessible from a remote machine, can use following command:
 The --host argument of the server script should be set to 0.0.0.0 to accept connections from any IP address.
 
 ## Run Client:
-To run client, run the following command: `python3 client.py --input_documents input.txt --input_questions questions.txt --output output.txt --host server_public_ip_or_hostname --port 50051
+To run client, run the following command: `python3 client.py --input_documents input.txt --input_questions questions.txt --output output.txt --host server_public_ip_or_hostname --port 50051`
+
 Client can accept 2 inputs (`input_documents`, `input_questions`).
 
 The format of input and ouput images should be txt.
