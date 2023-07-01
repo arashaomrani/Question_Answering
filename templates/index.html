@@ -1,0 +1,24 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QA Service</title>
+</head>
+<body>
+    <form method="POST">
+        <textarea name="text" placeholder="Enter document text here" rows="10" cols="50">{{ text }}</textarea><br>
+        <textarea name="questions" placeholder="Enter questions here, one per line" rows="10" cols="50">{{ questions|join('\n') }}</textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if answers %}
+        <h2>Answers:</h2>
+        <ul>
+            {% for answer in answers %}
+                <li>{{ answer }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
