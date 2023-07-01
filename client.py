@@ -1,5 +1,3 @@
-# client.py
-
 import argparse
 import grpc
 
