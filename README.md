@@ -25,7 +25,7 @@ To run client, run the following command: `python3 client.py --input_documents i
 
 Client can accept 2 inputs (`input_documents`, `input_questions`).
 
-The format of input and ouput images should be txt.
+The format of input and ouput should be txt.
 
 If the question is outside the scope of the input text (document), it will give a generic answer "out of scope".
 
